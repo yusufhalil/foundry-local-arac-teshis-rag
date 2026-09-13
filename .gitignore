@@ -1,0 +1,8 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+.streamlit/
+# Veritabani 'python bilgi_tabani.py' ile yeniden uretilir
+dtc.db

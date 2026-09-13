@@ -1,0 +1,409 @@
+{
+  "model": "qwen2.5-1.5b-instruct-generic-gpu:4",
+  "zaman": "2026-09-13 22:53",
+  "ozet": {
+    "toplam_dogru": 24,
+    "toplam": 25,
+    "cevaplanabilir_isabet": 19,
+    "cevaplanabilir": 20,
+    "dogru_red": 5,
+    "cevaplanamaz": 5
+  },
+  "sonuclar": [
+    {
+      "soru": "P0301 arıza kodu algılandı, ne yapmalıyım?",
+      "beklenen": [
+        "P0301"
+      ],
+      "tur": "kod",
+      "dogru_kaynak": true,
+      "reddedildi": false,
+      "kaynak_atfi": false,
+      "sure_sn": 23.02,
+      "getirilen": [
+        "P0301 - 1. silindirde ateşleme kaçağı algılandı",
+        "P0300 - Rastgele/çoklu silindir ateşleme kaçağı algılandı",
+        "P0303 - 3. silindirde ateşleme kaçağı algılandı"
+      ],
+      "cevap": "İşte cevap:\n\n**Sebep:** Silindirin bujisi veya ateşleme bobininin arızalı olması veya sıkıştırma kaybı.\n\n**Önler:** Bujileri ve bobinleri kontrol edin, vakum hortumlarında kaçak arayın, yakıt basıncını ölçün. Arıza lambası yanıp sönüyorsa hızla sürmeyin, katalizör zarar göremedikçe sürüşe devam edin.\n\n**Aciliyet:** Yüksek."
+    },
+    {
+      "soru": "p0420 kodu ne anlama geliyor?",
+      "beklenen": [
+        "P0420"
+      ],
+      "tur": "kod",
+      "dogru_kaynak": true,
+      "reddedildi": false,
+      "kaynak_atfi": false,
+      "sure_sn": 6.19,
+      "getirilen": [
+        "P0420 - Katalitik konvertör verimi eşik altında (Bank 1)"
+      ],
+      "cevap": "P0420 kodu, katalitik konvertörün verimi eşik altında olduğunu gösterir. Bu durum, katalitik konvertörü çalışırken, oksijen sensörleri, egzoz kaçağı veya motor ateşleme sorunlarına neden olan bir durumdur. Öncülere göre bu durum, katalitik konvertörün durumu değerlendirilmesi gerekmektedir. Ancak, bu durumın kesin bir çözümünü vermek için, oksijen sensörlerini ve egzoz sistemini kontrol etmeleri gerekir. Aciliyet düzeyinde görülmüş bu durum, orta derecede bir durum olarak kabul edilmektedir."
+    },
+    {
+      "soru": "Arabamda P0171 ve P0101 kodları var",
+      "beklenen": [
+        "P0171",
+        "P0101"
+      ],
+      "tur": "kod",
+      "dogru_kaynak": true,
+      "reddedildi": false,
+      "kaynak_atfi": false,
+      "sure_sn": 8.61,
+      "getirilen": [
+        "P0171 - Yakıt sistemi çok fakir (Bank 1)",
+        "P0101 - Kütle hava akış (MAF) sensörü aralık/performans sorunu",
+        "P0172 - Yakıt sistemi çok zengin (Bank 1)"
+      ],
+      "cevap": "Arıza kodu P0171: Yakıt sistemi çok fakir (Bank 1).  \nOlası sebepler: Vakum kaçağı, kirli MAF sensörü, zayıf yakıt pompası, tıkalı enjektörler veya kaçak yapan emme kontoseri.\n\nArıza kodu P0101: Kütle hava akış (MAF) sensörü aralık/performans sorunu.\nOlası sebepler: Kirli MAF sensörü, tıkalı hava filtresi, emme hortumunda yırtık veya vakum kaçağı.\n\nArıza kodu P0172: Yakıt sistemi çok zengin (Bank 1).\nOlası sebepler: Kaçak yapan enjektör, arızalı yakıt basınç regülatörü, kirli MAF sensörü, tıkalı hava filtresi, arızalı oksijen sensörü.\n\nSürücünün sorusu: Arabamda P0171 ve P0101 kodları var."
+    },
+    {
+      "soru": "P0217 hatası verdi",
+      "beklenen": [
+        "P0217"
+      ],
+      "tur": "kod",
+      "dogru_kaynak": true,
+      "reddedildi": false,
+      "kaynak_atfi": false,
+      "sure_sn": 6.45,
+      "getirilen": [
+        "P0217 - Motor aşırı ısınma durumu"
+      ],
+      "cevap": "Motor aşırı ısınma durumu, motor soğutma suyu seviyesinin düşük olması veya arızalı su pompası, tıkalı radyatör, arızalı termostat veya fan gibi kesinti nedenleri nedeni olabilir. Derhal motoru durdurmanız gerekiyor, çünkü motor soğumadan radyatör kapağını açmamak önemlidir. Ayrıca, motor soğutma suyunun seviyesini kontrol etmek, su pompalarını ve radyatör fanını kontrol etmek de önemlidir. Bu durum, motor aşırı ısınma durumunu çözmenin en iyi yoludur. Aciliyet düzeyi Kritik, bu yüzden hemen urgent bir sorumlulukten kurtulmak için hızla müdahale edilmelidir."
+    },
+    {
+      "soru": "U0100 kodu çıktı",
+      "beklenen": [
+        "U0100"
+      ],
+      "tur": "kod",
+      "dogru_kaynak": true,
+      "reddedildi": false,
+      "kaynak_atfi": false,
+      "sure_sn": 4.76,
+      "getirilen": [
+        "U0100 - Motor kontrol modülü (ECM/PCM) ile iletişim kaybı",
+        "P0300 - Rastgele/çoklu silindir ateşleme kaçağı algılandı"
+      ],
+      "cevap": "U0100 kodu çıktı. Motor kontrol modülünü kontrol etmek için akü voltajını kontrol edin ve belirli sigorta sistemlerini kontrol edin. Ayrıca, CAN hattı arızasına bakarak arıza lambası yanıp sönüyor mu diye kontrol edin. Eğer arıza lambası yanıp sönüyor, hızla motoru kesinlikle durdurun."
+    },
+    {
+      "soru": "Motorum rölantide titriyor ve motor arıza lambası yandı",
+      "beklenen": [
+        "Rölantide titreme",
+        "Motor arıza lambası",
+        "P0300"
+      ],
+      "tur": "belirti",
+      "dogru_kaynak": true,
+      "reddedildi": false,
+      "kaynak_atfi": false,
+      "sure_sn": 8.42,
+      "getirilen": [
+        "Yolda Acil Durumlar ve Periyodik Bakım > Rölantide titreme ve tekleme",
+        "Gösterge Paneli Uyarı Işıkları Rehberi > Motor arıza lambası (Check Engine)",
+        "Gösterge Paneli Uyarı Işıkları Rehberi > Motor arıza lambası (Check Engine)"
+      ],
+      "cevap": "Motor rölantide titriyor ve motor arıza lambası (Check Engine) yandı. Bu durum, motor kontrolü sırasında yaşayabileceklerinden biri olabilir. Ancak, bu durumun kesin bir çözümünü vermek için daha fazlasını belirtmemiz gerekiyor. İşte bazı noktalar:\n\n- Motor arıza lambası (Check Engine) yandıktan sonra, araç çalıştırılırken durumunu gözlemleyebilirsiniz.\n- Eğer motor arıza lambası (Check Engine) yandığında araç çalışmazsa, bu durum bir OBD-II okuyucu ile analiz edilmesi gerekebilir.\n- Yanlış bir durumda, motor arıza lambası (Check Engine) yandığından sonra, araç durumunu yeniden başlatmak veya servis için gidişi düşünün.\n\nBu durum, motor kontrolü sırasında yaşayabileceklerinden biri olabilir, ancak kesin bir çözüm için daha fazlasını belirtmemiz gerekiyor. Servis için bir uzlaşma yapmanızı öneririm."
+    },
+    {
+      "soru": "Kırmızı yağdanlık şeklinde bir ışık yandı",
+      "beklenen": [
+        "Yağ basıncı"
+      ],
+      "tur": "belirti",
+      "dogru_kaynak": true,
+      "reddedildi": false,
+      "kaynak_atfi": false,
+      "sure_sn": 6.11,
+      "getirilen": [
+        "Gösterge Paneli Uyarı Işıkları Rehberi > Yağ basıncı uyarı ışığı",
+        "Gösterge Paneli Uyarı Işıkları Rehberi > Kızdırma bujisi ışığı (dizel araçlar)",
+        "Gösterge Paneli Uyarı Işıkları Rehberi > Fren sistemi uyarı ışığı"
+      ],
+      "cevap": "⚠️ **Güvenlik uyarısı:** Motoru derhal güvenli bir yerde durdurun. Yağ basıncı düşükken çalışan motor kısa sürede ciddi hasar görür.\n\nBu durum çok önemlidir çünkü yağdanlık şeklindeki ışıktır ve motor yağ basıncının tehlikeli derecede düştüğünü gösteriyor. Eğer motor yanıp sönmesi veya yanıp sönmesi sürekli olarak varsa, motor kısa sürede ciddi hasar göremeyecektir. Motor soğuduktan sonra yağ seviyesi kontrol edilmeli ve motor çalıştırılabilmesi için motor seviyesi normalleştirilmesi gerekebilir. Ayrıca, bu durumun acılığını kesinize göre belirtmek için daha fazlasını düşünmelisiniz."
+    },
+    {
+      "soru": "Hararet göstergesi yükseldi, kaputtan buhar geliyor",
+      "beklenen": [
+        "aşırı ısındığında",
+        "Hararet",
+        "P0217",
+        "hemen durdurmalı"
+      ],
+      "tur": "belirti",
+      "dogru_kaynak": true,
+      "reddedildi": false,
+      "kaynak_atfi": false,
+      "sure_sn": 5.81,
+      "getirilen": [
+        "Yolda Acil Durumlar ve Periyodik Bakım > Motor aşırı ısındığında yapılacaklar",
+        "Yolda Acil Durumlar ve Periyodik Bakım > Motor aşırı ısındığında yapılacaklar",
+        "Gösterge Paneli Uyarı Işıkları Rehberi > Hararet (motor sıcaklığı) uyarı ışığı"
+      ],
+      "cevap": "⚠️ **Güvenlik uyarısı:** Aracı güvenli bir yere çekip motoru kapatın. Motor sıcakken radyatör veya genleşme kabı kapağını kesinlikle açmayın; basınçlı sıcak su yanığa neden olabilir.\n\nHararet yükseldiğinde önce klima kapatılıp kalorifer tam sıcakta ve fan en yüksekte açılabilir; bu motordan ısı çekmeye yardımcı olur. Hararet düşmüyorsa araç güvenli bir yere çekilip motor durdurulmalıdır. Motor en az 30 dakika soğumadan radyatör veya genleşme kabı kapağı açılmamalıdır. \n\nBu durum acildir. Aracı durdurma ve güvenlik adımlarını küçümseyen veya onlarla çelişen bir şey yazma."
+    },
+    {
+      "soru": "Sürüş sırasında akü ışığı yanmaya başladı",
+      "beklenen": [
+        "Akü / şarj",
+        "P0562"
+      ],
+      "tur": "belirti",
+      "dogru_kaynak": true,
+      "reddedildi": false,
+      "kaynak_atfi": false,
+      "sure_sn": 10.88,
+      "getirilen": [
+        "Gösterge Paneli Uyarı Işıkları Rehberi > Akü / şarj uyarı ışığı",
+        "Gösterge Paneli Uyarı Işıkları Rehberi > Kızdırma bujisi ışığı (dizel araçlar)",
+        "Gösterge Paneli Uyarı Işıkları Rehberi > Motor arıza lambası (Check Engine)"
+      ],
+      "cevap": "Sürücünün sorusu: Sürüş sırasında akü ışığı yanmaya başladı. \n\nBu durum, akü ışığına bakarak kontrol edelim. Eğer yanmışsa, motor yönetim sistemi tarafından sorunsuz çalıştırılırken, yanmış ışığın motor sistemini kesmesi veya motoru kesmesi gerekebilir. Eğer yanmaması durumu ise, motor yönetim sisteminde arıza olabilecek durumlar var. Servis hedefleri arasında dengesizlik, motor sistemleri, elektrikli tüketiciler ve diğer motor sistemlerinin yanması bulunabilir. \n\nSonuçta, motor yönetim sisteminize bakarak ve motor sistemlerinin yanıp sönmesi durumlarına odaklanmak önemlidir. Servis hedefleriniz arasında dengesizlik, motor sistemleri, elektrikli tüketiciler ve diğer motor sistemlerinin yanması bulunabilir. Servis hedefleriniz arasında dengesizlik, motor sistemleri, elektrikli tüketiciler ve diğer motor sistemlerinin yanması bulunabilir. Servis hedefleriniz arasında dengesizlik, motor sistemleri, elektrikli tüketiciler ve diğer motor sistemlerinin yanması bulunabilir. Servis hedefleriniz arasında dengesizlik, motor sistemleri, elektrikli tüketiciler ve diğer motor sistemlerinin yanması bulunabilir. Servis hedefleriniz arasında dengesizlik, motor sistemleri, elektrikli tüketiciler ve diğer motor sistemlerinin yan"
+    },
+    {
+      "soru": "Benzin aldıktan sonra yakıt kapağını gevşek bıraktım, check engine yandı",
+      "beklenen": [
+        "Motor arıza lambası",
+        "P0442",
+        "P0455",
+        "P0440"
+      ],
+      "tur": "belirti",
+      "dogru_kaynak": true,
+      "reddedildi": false,
+      "kaynak_atfi": false,
+      "sure_sn": 7.49,
+      "getirilen": [
+        "Gösterge Paneli Uyarı Işıkları Rehberi > Motor arıza lambası (Check Engine)",
+        "Yolda Acil Durumlar ve Periyodik Bakım > Ne zaman aracı hemen durdurmalı",
+        "Gösterge Paneli Uyarı Işıkları Rehberi > Motor arıza lambası (Check Engine)"
+      ],
+      "cevap": "Bazen benzin aldıktan sonra yakıt kapağını gevşek bıraktığınızda, check engine mesajı eşiğinden yanıyor olabilir. Ancak bu durum genellikle küçük bir ateşleme kaçağıdır ve hız ve yük azaltılması yeterlidir. Eğer yanmış veya sönüyor, hızınızı azaltmanız ve yükünü azaltmanız önerilir. Servise gidip dijital kontrol panelini kontrol ederek daha fazla analiz yapabilirsiniz. Eğer yanmış veya sönüyor, en kısa sürede servise gitmeniz önerilir. Bu durum genellikle benzin işleminde bir sorunun sonucudur ve motor kontrol sisteminize zarar vermesi durumunda hızınızı azaltmanız ve yükünü azaltmanız önerilir. Servise gidip dijital kontrol panelini kontrol ederek daha fazla analiz yapabilirsiniz."
+    },
+    {
+      "soru": "Dizel arabamda DPF ışığı yandı ne yapayım",
+      "beklenen": [
+        "DPF",
+        "P242F"
+      ],
+      "tur": "belirti",
+      "dogru_kaynak": true,
+      "reddedildi": false,
+      "kaynak_atfi": false,
+      "sure_sn": 11.02,
+      "getirilen": [
+        "Gösterge Paneli Uyarı Işıkları Rehberi > DPF uyarı ışığı (dizel araçlar)",
+        "P242F - Dizel partikül filtresi (DPF) kül birikimi / tıkanıklık",
+        "Gösterge Paneli Uyarı Işıkları Rehberi > Motor arıza lambası (Check Engine)"
+      ],
+      "cevap": "DPF uyarı ışığı, dizel partikül filtresinin dolduğunu gösteren bir filtre şeklindeki ışıktır. Eğer ışığın sönmesi veya yanması durumunda, servise gidilmelidir. Eğer ışığın yanması ise, uzun süreli yakıt kullanımı, motor arıza lambası veya uygun olmayan motor yağlarına neden olabilir. Servise gidip kontrol edilmesi gereken noktalardan biri de yakıt deposu kapağının gevşek kalmasıdır. \n\nBu durum, ciddi bir ateşleme kaçağına yol açabilir, böylece hız ve yük azaltılması gerektirebilir. Ayrıca, yakıt deposu kapağının gevşek kalması da bu ışığın yanmasına neden olabilir. Bu durumlar, motor hafif hareket etmesi için hız azaltılması ve yakıt deposu kapağının kesinleştirilmesi gerekebilir. Servise gidip kontrol edilmesi gereken noktalardan biri de yakıt deposu kapağının gevşek kalmasıdır. \n\nServise gidip yakıt deposu kapağının gevşek kalması veya yakıt kullanımı uzun süre boyunca devam ettiği durumlar, motor hafif hareket etmesi için hız azaltılması ve yakıt deposu kapağının kesinleştirilmesi gerekebilir. Servise gidip kontrol edilmesi gereken noktalardan biri de yakıt deposu kapa"
+    },
+    {
+      "soru": "Triger kayışı kaç kilometrede değişir?",
+      "beklenen": [
+        "Periyodik bakım"
+      ],
+      "tur": "bilgi",
+      "dogru_kaynak": true,
+      "reddedildi": false,
+      "kaynak_atfi": false,
+      "sure_sn": 2.79,
+      "getirilen": [
+        "Yolda Acil Durumlar ve Periyodik Bakım > Periyodik bakım aralıkları"
+      ],
+      "cevap": "Triger kayışı modeli göre 60.000-120.000 km veya belirli yılda bir değiştirilmelidir."
+    },
+    {
+      "soru": "OBD soketi arabada nerede olur?",
+      "beklenen": [
+        "soketi nerede"
+      ],
+      "tur": "bilgi",
+      "dogru_kaynak": true,
+      "reddedildi": false,
+      "kaynak_atfi": false,
+      "sure_sn": 4.53,
+      "getirilen": [
+        "OBD-II ve Arıza Kodları Temelleri > OBD-II soketi nerede bulunur",
+        "OBD-II ve Arıza Kodları Temelleri > OBD-II nedir",
+        "OBD-II ve Arıza Kodları Temelleri > OBD-II nedir"
+      ],
+      "cevap": "OBD-II soketi genellikle sürücü tarafında, direksiyonun altında, torpido alt panelinde bulunur. Bazı araçlarda sigorta kutusu kapağının arkasında veya orta konsolda olabilir. Ucuz bir ELM327 Bluetooth adaptörü ve bir telefon uygulaması ile arıza kodları okunabilir."
+    },
+    {
+      "soru": "Arıza kodunu silersem sorun çözülür mü?",
+      "beklenen": [
+        "silmek"
+      ],
+      "tur": "bilgi",
+      "dogru_kaynak": true,
+      "reddedildi": false,
+      "kaynak_atfi": false,
+      "sure_sn": 11.08,
+      "getirilen": [
+        "OBD-II ve Arıza Kodları Temelleri > Arıza kodunu silmek sorunu çözer mi",
+        "P0741 - Tork konvertörü kilitleme kavraması performans sorunu",
+        "P0300 - Rastgele/çoklu silindir ateşleme kaçağı algılandı"
+      ],
+      "cevap": "Arıza kodunu silerek sorun çözülür mi? Arıza kodunu silmek sorunu çözer mi? Arıza kodunu silmek sorunu çözer mi? Arıza kodunu silmek sorunu çözer mi? Arıza kodunu silmek sorunu çözer mi? Arıza kodunu silmek sorunu çözer mi? Arıza kodunu silmek sorunu çözer mi? Arıza kodunu silmek sorunu çözer mi? Arıza kodunu silmek sorunu çözer mi? Arıza kodunu silmek sorunu çözer mi? Arıza kodunu silmek sorunu çözer mi? Arıza kodunu silmek sorunu çözer mi? Arıza kodunu silmek sorunu çözer mi? Arıza kodunu silmek sorunu çözer mi? Arıza kodunu silmek sorunu çözer mi? Arıza kodunu silmek sorunu çözer mi? Arıza kodunu silmek sorunu çözer mi? Arıza kodunu silmek sorunu çözer mi? Arıza kodunu silmek sorunu çözer mi? Arıza kodunu silmek sorunu çözer mi? Arıza kodunu silmek sorunu çözer mi? Arıza kodunu silmek sorunu çözer mi? Arıza kodunu silmek sorunu çözer mi? Arıza kodunu silmek sorunu çözer mi? Arıza kodunu silmek sorunu çözer mi"
+    },
+    {
+      "soru": "Bank 1 sensör 2 ne demek?",
+      "beklenen": [
+        "Bank ve sensör"
+      ],
+      "tur": "bilgi",
+      "dogru_kaynak": true,
+      "reddedildi": false,
+      "kaynak_atfi": false,
+      "sure_sn": 4.03,
+      "getirilen": [
+        "OBD-II ve Arıza Kodları Temelleri > Bank ve sensör numaraları",
+        "P0130 - Oksijen (O2) sensörü devre arızası (Bank 1, Sensör 1)",
+        "P0135 - Oksijen (O2) sensörü ısıtıcı devresi arızası (Bank 1, Sensör 1)"
+      ],
+      "cevap": "Bank 1 sensör 2 sensörü, sensör 1 katalitik konvertörden önceki sensör olarak tanımlanır. Bu sensör, bank 1 silindirinin arkasında bulunmaktadır."
+    },
+    {
+      "soru": "ABS ışığı yanıyor, fren tutar mı?",
+      "beklenen": [
+        "ABS",
+        "C0035"
+      ],
+      "tur": "belirti",
+      "dogru_kaynak": true,
+      "reddedildi": false,
+      "kaynak_atfi": false,
+      "sure_sn": 10.93,
+      "getirilen": [
+        "Gösterge Paneli Uyarı Işıkları Rehberi > ABS uyarı ışığı",
+        "Gösterge Paneli Uyarı Işıkları Rehberi > Fren sistemi uyarı ışığı",
+        "Yolda Acil Durumlar ve Periyodik Bakım > Ne zaman aracı hemen durdurmalı"
+      ],
+      "cevap": "ABS uyarı ışığı yanıyor, fren tutar mı? \n\nBu soruya karşılık cevap şu:\n\n**EVEM**, fren tutarlıdır. Ancak, bu durum genellikle normal frenler çalıştırması için gereken bir tekerlek hız sensorünün kaybına neden olmuştur. Bu durumda, tekerlek hız sensörü yeniden başlatılması veya motorun kapanması gerektiği kesinlikle belirlendiği bir kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu kodlu"
+    },
+    {
+      "soru": "Marşa basınca tık tık ses geliyor araba çalışmıyor",
+      "beklenen": [
+        "çalışmıyorsa"
+      ],
+      "tur": "belirti",
+      "dogru_kaynak": true,
+      "reddedildi": false,
+      "kaynak_atfi": false,
+      "sure_sn": 10.83,
+      "getirilen": [
+        "Yolda Acil Durumlar ve Periyodik Bakım > Araç çalışmıyorsa",
+        "P0174 - Yakıt sistemi çok fakir (Bank 2)",
+        "P0171 - Yakıt sistemi çok fakir (Bank 1)"
+      ],
+      "cevap": "Marşa basacak şekilde tık tık sesini alırken motor çalışmıyor, yakıt sistemi çok fakir olduğundan yakıt göstergesi boş olmadığını emin olun. Ayrıca, motorun ikinci silindir sırası tarafında vakum kaçağı araştırılmalı, MAF sensörünü temizleyip yakıt basıncını kontrol etmeli. Sosyal güvenlik uyarıları şu şekildedir:\n\n- Yakıt sistemi çok fakir (Bank 1 veya Bank 2): Yakıt sistemi çok fakir olduğunda yakıt göstergesi boş olmadığını emin olun. Yakıt sisteminizi kontrol ederek yakıt basıncını kontrol etmelisiniz.\n\n- Yakıt sistemi çok fakir (Bank 1 veya Bank 2): Yakıt sisteminizi kontrol ederek yakıt basıncını kontrol etmelisiniz.\n\n- Yakıt sistemi çok fakir (Bank 1 veya Bank 2): Yakıt sisteminizi kontrol ederek yakıt basıncını kontrol etmelisiniz.\n\n- Yakıt sistemi çok fakir (Bank 1 veya Bank 2): Yakıt sisteminizi kontrol ederek yakıt basıncını kontrol etmelisiniz.\n\n- Yakıt sistemi çok fakir (Bank 1 veya Bank 2): Yakıt sisteminizi kontrol ederek yakıt basıncını kontrol etmelisiniz.\n\n- Yakıt sistemi çok fakir (Bank 1 veya Bank 2): Yakıt sisteminizi kontrol ederek yakıt basıncını kontrol etmelisiniz.\n\n- Yak"
+    },
+    {
+      "soru": "Kış lastiğinde diş derinliği en az kaç mm olmalı?",
+      "beklenen": [
+        "Lastikler"
+      ],
+      "tur": "bilgi",
+      "dogru_kaynak": true,
+      "reddedildi": false,
+      "kaynak_atfi": false,
+      "sure_sn": 2.28,
+      "getirilen": [
+        "Yolda Acil Durumlar ve Periyodik Bakım > Lastikler"
+      ],
+      "cevap": "En az 4 mm olmalıdır."
+    },
+    {
+      "soru": "Gaza basınca araç çekmiyor ve acil moda geçti",
+      "beklenen": [
+        "P2135"
+      ],
+      "tur": "belirti",
+      "dogru_kaynak": false,
+      "reddedildi": true,
+      "kaynak_atfi": false,
+      "sure_sn": 0.04,
+      "getirilen": [],
+      "cevap": "Bu konuda bilgi tabanımda yeterli bilgi bulamadım. Tahmin yürütmek yerine aracınızı bir servise veya uzman bir ustaya kontrol ettirmenizi öneririm."
+    },
+    {
+      "soru": "Motor çalışırken akü voltajı kaç olmalı?",
+      "beklenen": [
+        "Canlı sensör",
+        "P0562"
+      ],
+      "tur": "bilgi",
+      "dogru_kaynak": true,
+      "reddedildi": false,
+      "kaynak_atfi": false,
+      "sure_sn": 3.86,
+      "getirilen": [
+        "P0562 - Sistem voltajı düşük",
+        "OBD-II ve Arıza Kodları Temelleri > Canlı sensör verileri",
+        "Yolda Acil Durumlar ve Periyodik Bakım > Araç çalışmıyorsa"
+      ],
+      "cevap": "Motor çalışırken akü voltajı yaklaşık **13,5-14,5 V** olmalıdır. Bu değer motor çalışırken ideal olarak olması için belirtilmiştir."
+    },
+    {
+      "soru": "P1234 kodu ne demek?",
+      "beklenen": [],
+      "tur": "cevaplanamaz",
+      "dogru_kaynak": true,
+      "reddedildi": true,
+      "kaynak_atfi": false,
+      "sure_sn": 0.04,
+      "getirilen": [],
+      "cevap": "P1234 kodu bilgi tabanımda yok. Bu konuda bilgi tabanımda yeterli bilgi bulamadım. Tahmin yürütmek yerine aracınızı bir servise veya uzman bir ustaya kontrol ettirmenizi öneririm."
+    },
+    {
+      "soru": "Türkiye'nin başkenti neresidir?",
+      "beklenen": [],
+      "tur": "cevaplanamaz",
+      "dogru_kaynak": true,
+      "reddedildi": true,
+      "kaynak_atfi": false,
+      "sure_sn": 0.02,
+      "getirilen": [],
+      "cevap": "Bu konuda bilgi tabanımda yeterli bilgi bulamadım. Tahmin yürütmek yerine aracınızı bir servise veya uzman bir ustaya kontrol ettirmenizi öneririm."
+    },
+    {
+      "soru": "En iyi pizza tarifi nedir?",
+      "beklenen": [],
+      "tur": "cevaplanamaz",
+      "dogru_kaynak": true,
+      "reddedildi": true,
+      "kaynak_atfi": false,
+      "sure_sn": 0.02,
+      "getirilen": [],
+      "cevap": "Bu konuda bilgi tabanımda yeterli bilgi bulamadım. Tahmin yürütmek yerine aracınızı bir servise veya uzman bir ustaya kontrol ettirmenizi öneririm."
+    },
+    {
+      "soru": "Arabamın rengini değiştirmek istiyorum, hangi boya iyi?",
+      "beklenen": [],
+      "tur": "cevaplanamaz",
+      "dogru_kaynak": true,
+      "reddedildi": true,
+      "kaynak_atfi": false,
+      "sure_sn": 0.02,
+      "getirilen": [],
+      "cevap": "Bu konuda bilgi tabanımda yeterli bilgi bulamadım. Tahmin yürütmek yerine aracınızı bir servise veya uzman bir ustaya kontrol ettirmenizi öneririm."
+    },
+    {
+      "soru": "Laptopum açılmıyor ne yapayım?",
+      "beklenen": [],
+      "tur": "cevaplanamaz",
+      "dogru_kaynak": true,
+      "reddedildi": true,
+      "kaynak_atfi": false,
+      "sure_sn": 0.02,
+      "getirilen": [],
+      "cevap": "Bu konuda bilgi tabanımda yeterli bilgi bulamadım. Tahmin yürütmek yerine aracınızı bir servise veya uzman bir ustaya kontrol ettirmenizi öneririm."
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+[
+  {
+    "kod": "P0100",
+    "aciklama": "Kütle hava akış (MAF) sensörü devre arızası",
+    "sebepler": "Arızalı veya kirli MAF sensörü, kopuk/oksitlenmiş soket, kablo tesisatında kısa devre, hava filtresi sonrası kaçak",
+    "oneriler": "MAF soketini ve kablolarını kontrol edin, sensörü uygun MAF temizleyici spreyle temizleyin, düzelmezse sensörü değiştirin",
+    "aciliyet": "Orta"
+  },
+  {
+    "kod": "P0101",
+    "aciklama": "Kütle hava akış (MAF) sensörü aralık/performans sorunu",
+    "sebepler": "Kirli MAF sensörü, tıkalı hava filtresi, emme hortumunda yırtık veya vakum kaçağı",
+    "oneriler": "Hava filtresini kontrol edin, MAF sensörünü temizleyin, emme hattında yırtık ve gevşek kelepçe arayın",
+    "aciliyet": "Orta"
+  },
+  {
+    "kod": "P0113",
+    "aciklama": "Emme havası sıcaklık sensörü (IAT) devresi yüksek giriş",
+    "sebepler": "Arızalı IAT sensörü, kopuk/oksitlenmiş kablo bağlantısı, açık devre",
+    "oneriler": "IAT sensörünü ve kablo bağlantılarını kontrol edin, gerekirse sensörü değiştirin",
+    "aciliyet": "Düşük"
+  },
+  {
+    "kod": "P0117",
+    "aciklama": "Motor soğutma suyu sıcaklık sensörü (ECT) devresi düşük giriş",
+    "sebepler": "Arızalı soğutma suyu sıcaklık sensörü, sensör kablosunda şaseye kısa devre, hasarlı soket",
+    "oneriler": "Sensör soketini ve kablolarını kontrol edin, sensör direncini ölçün, gerekirse sensörü değiştirin",
+    "aciliyet": "Orta"
+  },
+  {
+    "kod": "P0118",
+    "aciklama": "Motor soğutma suyu sıcaklık sensörü (ECT) devresi yüksek giriş",
+    "sebepler": "Arızalı sensör, açık devre, kopuk kablo veya gevşek soket",
+    "oneriler": "Soketi ve kabloları kontrol edin, sensörü test edin; hararet göstergesi yanlış gösteriyorsa sürüşe dikkat edin",
+    "aciliyet": "Orta"
+  },
+  {
+    "kod": "P0128",
+    "aciklama": "Soğutma suyu termostatı sıcaklığı regülasyon eşiğinin altında",
+    "sebepler": "Açık kalan veya arızalı termostat, düşük soğutma suyu seviyesi, arızalı soğutma suyu sıcaklık sensörü",
+    "oneriler": "Termostatı kontrol edin ve gerekirse değiştirin, soğutma suyu seviyesini ve sensörü kontrol edin",
+    "aciliyet": "Düşük"
+  },
+  {
+    "kod": "P0130",
+    "aciklama": "Oksijen (O2) sensörü devre arızası (Bank 1, Sensör 1)",
+    "sebepler": "Arızalı ön oksijen sensörü, sensör kablosunda hasar, egzoz kaçağı, sensör ısıtıcı devresi sorunu",
+    "oneriler": "Sensör kablolarını ve soketini kontrol edin, sensör önünde egzoz kaçağı arayın, gerekirse sensörü değiştirin",
+    "aciliyet": "Orta"
+  },
+  {
+    "kod": "P0135",
+    "aciklama": "Oksijen (O2) sensörü ısıtıcı devresi arızası (Bank 1, Sensör 1)",
+    "sebepler": "Oksijen sensörü ısıtıcı elemanı yanmış, sigorta atmış, kablo veya soket arızası",
+    "oneriler": "İlgili sigortayı kontrol edin, sensör ısıtıcı direncini ölçün, genellikle oksijen sensörünün değişmesi gerekir",
+    "aciliyet": "Düşük"
+  },
+  {
+    "kod": "P0171",
+    "aciklama": "Yakıt sistemi çok fakir (Bank 1)",
+    "sebepler": "Vakum kaçağı, kirli MAF sensörü, zayıf yakıt pompası, tıkalı enjektörler veya kaçak yapan emme contası",
+    "oneriler": "MAF sensörünü temizleyin, emme sisteminde vakum kaçağı arayın, yakıt basıncını kontrol edin",
+    "aciliyet": "Orta"
+  },
+  {
+    "kod": "P0172",
+    "aciklama": "Yakıt sistemi çok zengin (Bank 1)",
+    "sebepler": "Kaçak yapan enjektör, arızalı yakıt basınç regülatörü, kirli MAF sensörü, tıkalı hava filtresi, arızalı oksijen sensörü",
+    "oneriler": "Hava filtresini ve MAF sensörünü kontrol edin, yakıt basıncını ölçün, enjektörlerde damlatma olup olmadığına baktırın",
+    "aciliyet": "Orta"
+  },
+  {
+    "kod": "P0174",
+    "aciklama": "Yakıt sistemi çok fakir (Bank 2)",
+    "sebepler": "Bank 2 tarafında vakum kaçağı, emme manifoldu contası kaçağı, kirli MAF sensörü, düşük yakıt basıncı",
+    "oneriler": "Motorun ikinci silindir sırası tarafında vakum kaçağı arayın, MAF sensörünü temizleyin, yakıt basıncını kontrol edin",
+    "aciliyet": "Orta"
+  },
+  {
+    "kod": "P0217",
+    "aciklama": "Motor aşırı ısınma durumu",
+    "sebepler": "Düşük soğutma suyu, arızalı su pompası, tıkalı radyatör, arızalı termostat veya fan",
+    "oneriler": "DERHAL motoru durdurun. Motor soğumadan radyatör kapağını açmayın. Soğutma suyu seviyesini, su pompasını ve radyatör fanını kontrol ettirin",
+    "aciliyet": "Kritik"
+  },
+  {
+    "kod": "P0230",
+    "aciklama": "Yakıt pompası birincil devre arızası",
+    "sebepler": "Arızalı yakıt pompası rölesi, atmış sigorta, kablo tesisatı arızası, arızalı yakıt pompası",
+    "oneriler": "Yakıt pompası sigortasını ve rölesini kontrol edin, kontak açıldığında pompanın çalışma sesini dinleyin, servise başvurun",
+    "aciliyet": "Yüksek"
+  },
+  {
+    "kod": "P0300",
+    "aciklama": "Rastgele/çoklu silindir ateşleme kaçağı algılandı",
+    "sebepler": "Bujiler, ateşleme bobinleri, yakıt enjektörleri, vakum kaçağı, düşük yakıt basıncı veya sıkıştırma kaybı",
+    "oneriler": "Bujileri ve bobinleri kontrol edin, vakum hortumlarında kaçak arayın, yakıt basıncını ölçün. Arıza lambası yanıp sönüyorsa hızla sürmeyin, katalizör zarar görebilir",
+    "aciliyet": "Yüksek"
+  },
+  {
+    "kod": "P0301",
+    "aciklama": "1. silindirde ateşleme kaçağı algılandı",
+    "sebepler": "1. silindirin bujisi, ateşleme bobini veya enjektörü arızalı; sıkıştırma kaybı olabilir",
+    "oneriler": "1. silindirin bujisini ve bobinini kontrol edin, gerekirse bobinleri yer değiştirip arızanın taşınıp taşınmadığına bakın",
+    "aciliyet": "Yüksek"
+  },
+  {
+    "kod": "P0302",
+    "aciklama": "2. silindirde ateşleme kaçağı algılandı",
+    "sebepler": "2. silindirin bujisi, ateşleme bobini veya enjektörü arızalı; supap veya segman kaynaklı sıkıştırma kaybı olabilir",
+    "oneriler": "2. silindirin bujisini ve bobinini kontrol edin, bobini başka silindirle yer değiştirerek arızanın taşınıp taşınmadığını test edin",
+    "aciliyet": "Yüksek"
+  },
+  {
+    "kod": "P0303",
+    "aciklama": "3. silindirde ateşleme kaçağı algılandı",
+    "sebepler": "3. silindirin bujisi, ateşleme bobini veya enjektörü arızalı; sıkıştırma kaybı olabilir",
+    "oneriler": "3. silindirin bujisini ve bobinini kontrol edin, gerekirse kompresyon testi yaptırın",
+    "aciliyet": "Yüksek"
+  },
+  {
+    "kod": "P0304",
+    "aciklama": "4. silindirde ateşleme kaçağı algılandı",
+    "sebepler": "4. silindirin bujisi, ateşleme bobini veya enjektörü arızalı; sıkıştırma kaybı olabilir",
+    "oneriler": "4. silindirin bujisini ve bobinini kontrol edin, gerekirse kompresyon testi yaptırın",
+    "aciliyet": "Yüksek"
+  },
+  {
+    "kod": "P0325",
+    "aciklama": "Vuruntu sensörü devre arızası (Bank 1)",
+    "sebepler": "Arızalı vuruntu sensörü, kablo veya soket hasarı, sensörün yanlış sıkma torku",
+    "oneriler": "Sensör kablosunu ve soketini kontrol edin, sensörü test edin; motor performansında düşüş varsa servise başvurun",
+    "aciliyet": "Orta"
+  },
+  {
+    "kod": "P0335",
+    "aciklama": "Krank mili konum sensörü (CKP) devre arızası",
+    "sebepler": "Arızalı krank sensörü, hasarlı kablo tesisatı, hasarlı sensör dişlisi (reluktör halkası)",
+    "oneriler": "Sensör soketini ve kabloları kontrol edin, sensörü test ettirin; motor aniden stop edebilir veya çalışmayabilir, uzun yola çıkmayın",
+    "aciliyet": "Yüksek"
+  },
+  {
+    "kod": "P0340",
+    "aciklama": "Eksantrik mili konum sensörü (CMP) devre arızası",
+    "sebepler": "Arızalı eksantrik sensörü, kablo/soket sorunu, triger kayışı veya zincirinde kayma",
+    "oneriler": "Sensör bağlantılarını kontrol edin, sensörü test ettirin, triger zamanlamasını kontrol ettirin",
+    "aciliyet": "Yüksek"
+  },
+  {
+    "kod": "P0401",
+    "aciklama": "Egzoz gazı geri dönüşüm (EGR) akışı yetersiz",
+    "sebepler": "Karbon birikimiyle tıkanmış EGR valfi veya kanalları, arızalı EGR valfi, vakum hortumu kaçağı",
+    "oneriler": "EGR valfini ve kanallarını temizletin, vakum hortumlarını kontrol edin, gerekirse EGR valfini değiştirin",
+    "aciliyet": "Orta"
+  },
+  {
+    "kod": "P0420",
+    "aciklama": "Katalitik konvertör verimi eşik altında (Bank 1)",
+    "sebepler": "Arızalı katalitik konvertör, oksijen sensörleri, egzoz kaçağı veya motor ateşleme sorunları",
+    "oneriler": "Oksijen sensörlerini ve egzoz sistemini kontrol edin, katalitik konvertörün durumunu değerlendirin",
+    "aciliyet": "Orta"
+  },
+  {
+    "kod": "P0440",
+    "aciklama": "Buharlaşma emisyon (EVAP) sistemi arızası",
+    "sebepler": "Gevşek yakıt deposu kapağı, EVAP hortumlarında kaçak, arızalı purge veya vent valfi, kömür kanister arızası",
+    "oneriler": "Yakıt deposu kapağını kontrol edin, EVAP hortumlarını ve valfleri kontrol ettirin",
+    "aciliyet": "Düşük"
+  },
+  {
+    "kod": "P0442",
+    "aciklama": "Buharlaşma emisyon sistemi küçük kaçak algılandı",
+    "sebepler": "Gevşek veya arızalı yakıt deposu kapağı, EVAP hortumlarında küçük kaçak, arızalı purge valfi",
+    "oneriler": "Önce yakıt deposu kapağını sıkıca kapatın/değiştirin, EVAP hortumlarını ve valfleri kontrol edin",
+    "aciliyet": "Düşük"
+  },
+  {
+    "kod": "P0455",
+    "aciklama": "Buharlaşma emisyon sistemi büyük kaçak algılandı",
+    "sebepler": "Yakıt deposu kapağı takılmamış veya contası bozuk, kopuk EVAP hortumu, arızalı purge/vent valfi",
+    "oneriler": "Yakıt deposu kapağının takılı ve sıkı olduğundan emin olun, kopuk hortum arayın, duman testi yaptırın",
+    "aciliyet": "Düşük"
+  },
+  {
+    "kod": "P0500",
+    "aciklama": "Araç hız sensörü (VSS) arızası",
+    "sebepler": "Arızalı hız sensörü, kablo/soket hasarı, ABS tekerlek sensörü sorunları",
+    "oneriler": "Hız sensörü bağlantılarını kontrol edin; kilometre saati ve şanzıman vites geçişleri etkilenebilir, servise başvurun",
+    "aciliyet": "Orta"
+  },
+  {
+    "kod": "P0505",
+    "aciklama": "Rölanti hava kontrol (IAC) sistemi arızası",
+    "sebepler": "Kirli veya arızalı rölanti valfi, kirli gaz kelebeği, vakum kaçağı",
+    "oneriler": "Gaz kelebeği gövdesini ve rölanti valfini temizleyin, vakum hortumlarını kontrol edin",
+    "aciliyet": "Orta"
+  },
+  {
+    "kod": "P0562",
+    "aciklama": "Sistem voltajı düşük",
+    "sebepler": "Zayıf veya arızalı akü, arızalı şarj dinamosu (alternatör), gevşek/oksitlenmiş akü kutup başları, gevşek dinamo kayışı",
+    "oneriler": "Akü kutup başlarını temizleyip sıkın, akü voltajını ve şarj sistemini ölçtürün (motor çalışırken yaklaşık 13,5-14,5 V olmalı)",
+    "aciliyet": "Orta"
+  },
+  {
+    "kod": "P0700",
+    "aciklama": "Şanzıman kontrol sistemi arızası (şanzıman beyninde kayıtlı arıza var)",
+    "sebepler": "Şanzıman kontrol modülünde (TCM) kayıtlı başka bir arıza kodu; düşük şanzıman yağı, solenoid veya sensör arızası",
+    "oneriler": "Şanzıman modülündeki ek arıza kodlarını okutun, şanzıman yağı seviyesini kontrol ettirin, servise başvurun",
+    "aciliyet": "Yüksek"
+  },
+  {
+    "kod": "P0741",
+    "aciklama": "Tork konvertörü kilitleme kavraması performans sorunu",
+    "sebepler": "Düşük veya yanık şanzıman yağı, arızalı kilitleme solenoidi, tork konvertörü arızası",
+    "oneriler": "Şanzıman yağı seviyesini ve rengini kontrol ettirin, solenoidi test ettirin, otomatik şanzıman servisine başvurun",
+    "aciliyet": "Yüksek"
+  },
+  {
+    "kod": "P2096",
+    "aciklama": "Katalizör sonrası yakıt düzeltmesi çok fakir (Bank 1)",
+    "sebepler": "Egzoz kaçağı, arızalı arka oksijen sensörü, vakum kaçağı, verimsiz katalitik konvertör",
+    "oneriler": "Egzoz hattında kaçak arayın, arka oksijen sensörünü test ettirin, varsa diğer yakıt karışımı kodlarını birlikte değerlendirin",
+    "aciliyet": "Orta"
+  },
+  {
+    "kod": "P2135",
+    "aciklama": "Gaz pedalı / gaz kelebeği konum sensörü A/B voltaj uyumsuzluğu",
+    "sebepler": "Arızalı elektronik gaz kelebeği gövdesi, gaz pedalı sensörü arızası, kablo veya soket sorunu",
+    "oneriler": "Gaz kelebeği soketini ve kablolarını kontrol edin; araç acil moda (limp mode) geçebilir, güvenli şekilde servise gidin",
+    "aciliyet": "Yüksek"
+  },
+  {
+    "kod": "P242F",
+    "aciklama": "Dizel partikül filtresi (DPF) kül birikimi / tıkanıklık",
+    "sebepler": "Kısa mesafe şehir içi kullanım nedeniyle rejenerasyonun tamamlanamaması, arızalı DPF basınç sensörü, uygun olmayan motor yağı",
+    "oneriler": "Uygun koşullarda 15-20 dakika sabit hızda şehirlerarası yolda sürerek rejenerasyonu tamamlayın, DPF basınç sensörünü kontrol ettirin, servise başvurun",
+    "aciliyet": "Orta"
+  },
+  {
+    "kod": "C0035",
+    "aciklama": "Sol ön tekerlek hız sensörü devre arızası (ABS)",
+    "sebepler": "Arızalı ABS tekerlek sensörü, hasarlı kablo, kirli veya hasarlı sensör halkası",
+    "oneriler": "Sensör kablosunu ve soketini kontrol edin; ABS ve ESP devre dışı kalabilir, fren mesafesine dikkat ederek servise gidin",
+    "aciliyet": "Yüksek"
+  },
+  {
+    "kod": "B0001",
+    "aciklama": "Sürücü ön hava yastığı ateşleme devresi arızası",
+    "sebepler": "Direksiyondaki spiral kablo (saat kablosu) arızası, soket gevşekliği, hava yastığı modülü arızası",
+    "oneriler": "Hava yastığı sistemine kendiniz müdahale etmeyin; hava yastığı çalışmayabilir, en kısa sürede yetkili servise başvurun",
+    "aciliyet": "Yüksek"
+  },
+  {
+    "kod": "U0100",
+    "aciklama": "Motor kontrol modülü (ECM/PCM) ile iletişim kaybı",
+    "sebepler": "CAN hattında kablo/soket arızası, motor beynine giden besleme veya şase sorunu, zayıf akü, arızalı kontrol modülü",
+    "oneriler": "Akü voltajını ve şase bağlantılarını kontrol edin, ilgili sigortaları kontrol edin, CAN hattı arızası için servise başvurun",
+    "aciliyet": "Yüksek"
+  }
+]

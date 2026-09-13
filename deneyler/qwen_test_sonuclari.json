@@ -1,0 +1,5 @@
+{
+  "P0301 hata kodu ne anlama geliyor ve nasıl çözülür?": "[HATA: ChatClient.complete_chat() got an unexpected keyword argument 'temperature']",
+  "Motor arıza lambası yanıyor ama araç normal çalışıyor, ne yapmalıyım?": "[HATA: ChatClient.complete_chat() got an unexpected keyword argument 'temperature']",
+  "OBD-II'den okunan P0420 kodunu Türkçe açıklar mısın?": "[HATA: ChatClient.complete_chat() got an unexpected keyword argument 'temperature']"
+}
